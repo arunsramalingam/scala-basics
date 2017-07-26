@@ -1,0 +1,11 @@
+1. Scala has only a handful of built-in control structures. The only control structures are if, while, for, try, match, 
+and function calls.
+
+2. Scala adopts this ternary operator model
+
+3. Scala then continues this trend by having for, try, and match also result in values.
+
+4. Scala’s basic control structures, minimal as they are, are sufficient to provide all of the essentials from imperative languages.
+
+One difference from Java that you’ll quickly notice in Scala is that unlike Java, Scala does not require you to catch checked 
+exceptions, or declare them in a throws clause. You can declare a throws clause if you wish with the @throws annotation,

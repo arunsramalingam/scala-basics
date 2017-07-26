@@ -1,0 +1,40 @@
+package com.sathya.de
+
+object valmsg1 {
+  def main(args: Array[String]): Unit = {
+ 
+//Val msg3 
+    val msg3: String = "Hello yet again, world!"
+    println("Value of msg3 is " + msg3)
+
+//Maximum of two different numbers that are given
+    println("Maximum of two different number given " + max(2, 3))
+    def max(x: Int, y: Int): Int = {
+      if (x > y) x
+      else y
+    }
+//while loop example
+    println("control structures on the flow========while loop")
+    val args1 = "Scala is even more fun"
+    var i = 0;
+    while (i <= args1.length) {
+      if (i != 0) {
+        println(" "+i);
+      }
+     // print(args1(i));
+      i += 1;
+    }
+    println();
+    
+ // args1.foreach((arg2: String) => println(arg2))
+    
+    println("control structures on the flow========foreach loop")
+    args1.foreach(println)
+    
+   println("control structures on the flow========for loop")
+   for (arg <- args1)
+      println(arg)
+   
+  }
+  
+}
